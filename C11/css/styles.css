@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Play&family=Roboto&family=Roboto+Mono&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Roboto;
+  font-weight: 700;
+}
+
+body {
+  width: 1024px;
+  height: 678px;
+}
+header {
+  background-color: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 25px;
+}
+.nav {
+  display: flex;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 16px;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+  background-color: #e5e5e5;
+  padding-bottom: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+section {
+  width: 491px;
+  height: 350px;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+.podio {
+  background-color: white;
+}
+.envio {
+  background-image: url(/img/delivery.jpg);
+}
+.envio-gratis {
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 24px;
+  color: red;
+}
+span {
+  color: white;
+}
+
+.podio-pizza {
+  text-align: center;
+  color: red;
+  margin-top: 20px;
+}
+
+h3 {
+  margin-top: 45px;
+  margin-left: 85px;
+}
+ol {
+  margin-top: 20px;
+  margin-left: 35px;
+  font-size: 16px;
+}
+ol li {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+.imagen {
+  display: flex;
+}
+
+.contenedor {
+  display: flex;
+}
+.falling {
+  padding-left: 70px;
+  padding-top: 80px;
+}
+
+footer {
+  height: 150px;
+  background-color: #222222;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+footer div a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  padding-top: 12px;
+  padding-left: 20px;
+  font-size: 16px;
+}
+.logo-abajo {
+  padding-top: 25px;
+  padding-right: 50px;
+}
